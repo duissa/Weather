@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 20px;
+    
+    margin: 0 auto;
+    width:50%;
+    
+    
+    
+  }
+
+  .searchbar{
+
+    width: 400px;
+    padding: 5px 5px;
+    font-size: 1em;
+   
+
+  }
+
+  @media screen and (max-width: 768px){
+    .form{
+      display: flex;
+      flex-direction: column;
+      width:100%;
+      
+    }
+  }
+
+  .searchbar{
+    width:100%;
+    text-align: center;
+  }

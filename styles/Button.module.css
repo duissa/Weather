@@ -1,0 +1,18 @@
+.button{
+    margin-left: 20px;
+    background-color: #4A86E8;
+    color:white;
+    width:40%;
+    padding: 10px 5px;
+    font-size: 1em;
+    
+}
+
+@media screen and (max-width: 768px){
+    .button{
+        margin-left:0px;
+        margin:0 auto;
+        width:80%;
+        margin-top:10px;
+    }
+  }
