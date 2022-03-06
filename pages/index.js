@@ -35,8 +35,8 @@ export default  function Home({weatherData}) {
 
           results.location= weatherData.name;
           results.location= weatherData.name;
-          results.temperature=weatherData.main.temp;
-          results.feelsLike=weatherData.main.feels_like;
+          results.temperature=Math.round(weatherData.main.temp)°C;
+          results.feelsLike=Math.round(weatherData.main.feels_like)°c;
           results.icon=weatherData.weather[0].icon;
 
 
